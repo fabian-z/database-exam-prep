@@ -1,0 +1,14 @@
+16 MiB -> 16 * 1024 KiB -> 16 * 1024 * 1024 Bytes
+-> 16 * 1024 * 1024 * 8 Bit = 134217728 Bit
+
+* Annahme (#Design): 32 Bit Floats
+
+134217728 / 32 = 4194304 Datenpunkte
+
+Annahme (#Design): Datenpunkte alle 10 Sek. => 0,1 Hz
+
+4194304 / 0,1 = 41943040 Sekunden
+
+41943040 Sek // 60 = 699050 Minuten
+699050 Minuten / 60 = 11650,8 Stunden
+11650,8 Stunden ~ 485 Tage
